@@ -8,5 +8,11 @@ namespace ConsoleApp2
 {
     class Basket
     {
+        public int Id { get; set; }
+        public int ProductId { get; set; }
+        public List<Product> Products { get; set; }
+        public int ProductCount { get; set; }
+        public double TotalPrice { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }

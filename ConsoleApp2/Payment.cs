@@ -8,5 +8,9 @@ namespace ConsoleApp2
 {
     class Payment
     {
+        public int Id { get; set; }
+        public int PaymentTypeId { get; set; }
+        public PaymentType PaymentType { get; set; }
+        public DateTime PaymentDate { get; set; }
     }
 }
